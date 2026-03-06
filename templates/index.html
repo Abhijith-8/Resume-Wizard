@@ -1,15 +1,22 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <link rel="stylesheet" href="./style/style.css">
     <title>ResumeWizard</title>
 </head>
 <body>
-    <h2>Upload Your Resume (PDF)</h2>
 
-    <form action="/upload" method="post" enctype="multipart/form-data">
-        <input type="file" name="resume" accept=".pdf" required>
-        <br><br>
-        <button type="submit">Analyze Resume</button>
-    </form>
+<div class="container">
+
+<h2>Upload Your Resume (PDF)</h2>
+
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <input type="file" name="resume" accept=".pdf" required>
+    <br><br>
+    <button type="submit">Analyze Resume</button>
+</form>
+
+</div>
+
 </body>
 </html>

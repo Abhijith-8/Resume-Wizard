@@ -1,0 +1,71 @@
+/* Reset */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Body styling */
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#4facfe,#00f2fe);
+}
+
+/* Main container */
+.container{
+    background:white;
+    padding:40px;
+    border-radius:12px;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+    text-align:center;
+    width:400px;
+}
+
+/* Heading */
+h2{
+    margin-bottom:25px;
+    color:#333;
+}
+
+/* File input styling */
+input[type="file"]{
+    padding:10px;
+    border:2px dashed #4facfe;
+    width:100%;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* Hover effect */
+input[type="file"]:hover{
+    background:#f2f9ff;
+}
+
+/* Button styling */
+button{
+    margin-top:20px;
+    padding:12px 25px;
+    border:none;
+    background:#4facfe;
+    color:white;
+    font-size:16px;
+    border-radius:8px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+/* Button hover animation */
+button:hover{
+    background:#007bff;
+    transform:scale(1.05);
+}
+
+/* Button click effect */
+button:active{
+    transform:scale(0.95);
+}
